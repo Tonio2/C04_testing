@@ -1,3 +1,5 @@
+all: prgm00 prgm01 prgm02 prgm03 prgm04 prgm04 prgm05
+
 prgm00 : ../ex00/ft_strlen.c main00.c
 	gcc -Wall -Wextra -Werror main00.c ../ex00/ft_strlen.c -o prgm00
 
